@@ -21,6 +21,7 @@ namespace PictureBox
     public partial class Form1 : Form
     {
         Image<Bgr, byte> InputColor;
+        Image<Gray, byte> InputGray;
         public Form1()
         {
             InitializeComponent();
@@ -28,7 +29,7 @@ namespace PictureBox
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string imagen = "E:\\ValentinElizalde.JPG";
+            string imagen = "F:\\ValentinElizalde.jpg";
 
 
             InputColor = new Image<Bgr, byte>(imagen);
@@ -41,8 +42,16 @@ namespace PictureBox
             }
 
             imageBox1.Image = InputColor;
+            //Desactivar opciones de clic derecho emguCV
+            imageBox1.FunctionalMode = Emgu.CV.UI.ImageBox.FunctionalModeOption.RightClickMenu;
 
+        }
 
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            //Convertir a escala de grises
+            InputGray = InputColor.Convert<Gray, byte>();
+            imageBox2.Image = InputGray;
         }
     }
 }

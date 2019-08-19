@@ -54,13 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Emgu.CV.UI">
-      <HintPath>E:\Universidad\Semestre 7\Ivan\EmguCV_lib\EmguCV_lib\Emgu.CV.UI.dll</HintPath>
+      <HintPath>F:\Universidad\Semestre 7\Ivan\EmguCV_lib\EmguCV_lib\Emgu.CV.UI.dll</HintPath>
     </Reference>
     <Reference Include="Emgu.CV.UI.GL">
-      <HintPath>E:\Universidad\Semestre 7\Ivan\EmguCV_lib\EmguCV_lib\Emgu.CV.UI.GL.dll</HintPath>
+      <HintPath>F:\Universidad\Semestre 7\Ivan\EmguCV_lib\EmguCV_lib\Emgu.CV.UI.GL.dll</HintPath>
     </Reference>
     <Reference Include="Emgu.CV.World">
-      <HintPath>E:\Universidad\Semestre 7\Ivan\EmguCV_lib\EmguCV_lib\Emgu.CV.World.dll</HintPath>
+      <HintPath>F:\Universidad\Semestre 7\Ivan\EmguCV_lib\EmguCV_lib\Emgu.CV.World.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
